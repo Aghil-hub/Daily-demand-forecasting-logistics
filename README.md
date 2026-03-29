@@ -27,8 +27,10 @@ This project builds a daily demand forecasting model for a logistics company usi
 Full EDA, residual diagnostics, feature importance plots, and model comparison are available in the 
 notebook.
 
-![Correlation Heatmap](images/correlation_heatmap.png)
-![Feature Importance](images/feature_importance.png)
+![Correlation Heatmap](images/CorrelationMatrix.png)
+![Feature Importance](images/RF_Feature_importance.png)
+![Target vs Non-urgent order](images/Scatterplot_non-urgent.png)
+![Target vs Urgent order](images/Scatterplot_urgent.png)
 
 ## Results
 | Model | Mean RMSE | SD RMSE | Mean RMSPE | SD RMSPE |
