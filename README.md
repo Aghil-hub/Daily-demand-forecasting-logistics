@@ -1,6 +1,6 @@
 # Daily Demand Forecasting for a Logistics Firm
 
-This project builds a daily demand forecasting model for a logistics company using the UCI Daily Demand Forecasting Orders dataset. The objective is to predict total daily orders and compare model performance across repeated train-test splits using RMSPE.
+This project builds a daily demand forecasting model for a logistics company using the UC Irvine Daily Demand Forecasting Orders dataset. The objective is to predict total daily orders and compare model performance across repeated train-test splits using RMSPE.
 
 ## Objective
 - Forecast total daily orders
@@ -9,7 +9,7 @@ This project builds a daily demand forecasting model for a logistics company usi
 - Recommend a model based on accuracy, stability, and interpretability
 
 ## Dataset
-- Source: UCI Daily Demand Forecasting Orders dataset
+- Source: UC Irvine's ML Repo: Daily Demand Forecasting Orders dataset
 - Observations: 60 daily records
 - Target: Total Orders
 
@@ -30,13 +30,5 @@ This project builds a daily demand forecasting model for a logistics company usi
 ## Results
 | Model | Mean RMSE | SD RMSE | Mean RMSPE | SD RMSPE |
 |------|----------:|--------:|-----------:|---------:|
-| Linear Regression | XX.XX | XX.XX | 0.05 | 0.03 |
-| Random Forest | XX.XX | XX.XX | 0.12 | 0.06 |
-
-## Business Impact
-This forecasting approach can help logistics managers improve staffing, route planning, capacity allocation, and service reliability by anticipating daily order volume more accurately.
-
-## Files
-- `demand_forecasting.ipynb`: full notebook
-- `report.pdf`: final written report
-- `images/`: charts and supporting visuals
+| Linear Regression | 18.68 | 15.58 | 0.05 | 0.03 |
+| Random Forest | 40.58 | 16.89 | 0.13 | 0.06 |
